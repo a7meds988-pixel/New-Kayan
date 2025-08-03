@@ -1,13 +1,4 @@
 
-import React from "react";
-
-const InvoicesPage = () => {
-  return (
-    <main style={{ padding: "2rem", textAlign: "center" }}>
-      <h1>📄 فواتيري</h1>
-      <p>دي صفحة الفواتير، ح نعرض فيها قائمة فواتيرك بالكامل.</p>
-    </main>
-  );
-};
-
-export default InvoicesPage;
+export default function InvoicesPage() {
+  return <div style={{ padding: 20, fontFamily: 'sans-serif' }}>مرحباً بك في تطبيق كيان - النسخة الخامسة</div>;
+}
